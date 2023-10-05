@@ -1,0 +1,12 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nawazquazi1/MicroService--Config--Server
+          clone-on-start: true
