@@ -1,7 +1,7 @@
 package com.nawaz.user.services;
 
 import com.nawaz.user.entities.Rating;
-import org.springframework.cloud.openfeign.FeignClient;
+//import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.DeleteMapping;
